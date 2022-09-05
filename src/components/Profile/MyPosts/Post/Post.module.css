@@ -1,0 +1,20 @@
+   
+.item_img {
+    width: 80px;
+    border-radius: 60px;
+    padding: 10px;
+}
+
+.postMessage{
+color: rgba(198, 86, 235, 0.73);
+}
+
+.PostDecor {
+    list-style-type: none;
+}
+
+.profile__item{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    
+}
