@@ -1,18 +1,18 @@
 .nav {
-    grid-area: nav;
-    background-color: rgba(238, 130, 238, 0.558);
+  grid-area: nav;
+  background-color: #ffca3a;
 }
 
 .nav_item {
-    color: white ;
+  color: white;
 }
 
 .nav_active {
-    color: gray;
+  color: #ff595e;
+  text-decoration: none;
 }
 
-
-.nav_activeLink
-{
-    color: red;
+.nav_activeLink {
+  color: #1982c4;
+  text-decoration: none;
 }

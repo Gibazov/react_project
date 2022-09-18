@@ -1,15 +1,17 @@
 .div {
-    grid-area: div;
-    /* background-color: rgba(255, 127, 80, 0.545); */
-    padding: 10px;
-    }
-    
-.profile__item {
-    color: white;
-}    
-
-
-.postsBlock{
-    margin-top: 10px;
+  grid-area: div;
+  /* background-color: rgba(255, 127, 80, 0.545); */
+  padding: 10px;
 }
 
+.profile__item {
+  color: white;
+}
+
+.postsBlock {
+  margin-top: 10px;
+}
+
+.posts {
+  padding: 10px;
+}

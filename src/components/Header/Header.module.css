@@ -1,13 +1,12 @@
 .header {
-    grid-area: header;
-    background-color: rgba(30, 193, 30, 0.219);
-    }
-    
-    
-    .header__img {
-      display: flex;
-      background-position: left;
-      background-color: rgba(210, 105, 30, 0.264);
-      width: 100px;
-      height: 100px;  
-    }
+  grid-area: header;
+  background-color: #1982c4;
+}
+
+.header__img {
+  display: flex;
+  background-position: left;
+  background-color: rgba(210, 105, 30, 0.264);
+  width: 100px;
+  height: 100px;
+}

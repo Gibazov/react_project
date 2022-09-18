@@ -47,8 +47,7 @@
     " header header header header header header "
     " nav div div div div div "
     " nav div div div div div "
-    " nav div div div div div "
-  ;
+    " nav div div div div div ";
 
   grid-template-rows: auto;
   grid-template-columns: auto;
@@ -57,5 +56,5 @@
 
 .appWrapper_content {
   grid-area: div;
-  background-color: rgba(255, 127, 80, 0.545);
+  background-color: #8ac926;
 }
