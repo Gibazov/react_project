@@ -23,7 +23,12 @@ const App = (props) => {
         <Routes>
           <Route
             path="/profile"
-            element={<Profile posts={props.dataStorage.profilePage.posts} />}
+            element={
+              <Profile
+                posts={props.dataStorage.profilePage.posts}
+                addPost={props.dataStorage.profilePage.addPost}
+              />
+            }
           />
           <Route
             path="/dialogs/"

@@ -4,13 +4,14 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import dataStorage from "./dataStorage";
+import { addPost } from "./Redux/dataStorage";
 import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <React.StrictMode>
-      <App dataStorage={dataStorage} />
+      <App dataStorage={dataStorage} addPost={addPost} />
     </React.StrictMode>
   </BrowserRouter>
 );
